@@ -1,10 +1,9 @@
 package src.main.projetopessoa;
 
 public class Pessoa {
- public Endereco endereco;
+    public Endereco endereco;
     public String nome;
     public String idade;
-    public String cpf;
 
     public String getNome() {
         return nome;
@@ -22,11 +21,11 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public String getCpf() {
-        return cpf;
+    public Endereco getEndereco() {
+        return endereco;
     }
 
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
     }
 }
