@@ -7,6 +7,8 @@ public class Endereco {
   public String estado;
   public String cep;
 
+  //TODO: CRIAR MÉTODO CONSTRUTOR
+
   public String getRua() {
     return rua;
   }
