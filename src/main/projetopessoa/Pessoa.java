@@ -3,7 +3,9 @@ package src.main.projetopessoa;
 public class Pessoa {
     public Endereco endereco;
     public String nome;
-    public String idade;
+    public String anoNascimento;
+
+    //TODO: CRIAR MÉTODO CONSTRUTOR
 
     public String getNome() {
         return nome;
@@ -13,12 +15,12 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public String getIdade() {
-        return idade;
+    public String getAnoNascimento() {
+        return anoNascimento;
     }
 
-    public void setIdade(String idade) {
-        this.idade = idade;
+    public void setAnoNascimento(String anoNascimento) {
+        this.anoNascimento = anoNascimento;
     }
 
     public Endereco getEndereco() {
@@ -28,4 +30,6 @@ public class Pessoa {
     public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
     }
+
+    //TODO: Criar funcionalidade que pegue o ano de nascimento e calcule a idade da pessoa
 }
